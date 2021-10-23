@@ -7,12 +7,12 @@ def divisible(a, b):
        return "No es divisible"
 
 
-print("Ingresa 2 valores")
+'''print("Ingresa 2 valores")
 valor1=input()
 valor2=input()
 
 print("Los valores ingresados son "+str(valor1)+" y "+str(valor2))
 print(divisible(valor1,valor2))
-
+'''
 
 
