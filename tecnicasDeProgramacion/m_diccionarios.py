@@ -1,27 +1,32 @@
-listaPersonas=[]
-
+#Los diccionarios son mapas de valores. Se declaran con {} 
 persona={
-    "Nombre":"Lucas",
-    "Edad":"29",
-    "Direccion":"Holmberg"
+    'Nombre':"Lucas", #primer elemento
+    'Edad':29,        #segundo elemento
+    'Direccion':"Calle Falsa 455" #tercer elemento
 }
 
-listaPersonas.append(persona)
-print(listaPersonas)
+print (persona)
 
-persona={
-    "Nombre":"Maria",
-    "Edad":"40",
-    "Direccion":"ASdfgh"
-}
-listaPersonas.append(persona)
-for persona in listaPersonas :   
-    print (persona)
+#También se pueden declarar los valores de la siguiente manera:
+persona={}
+persona['Nombre']='Maria'
+persona['Edad']=30
+persona['Direccion']="Corrientes 123"
 
-for persona in listaPersonas:
-    if persona["Nombre"]=="Maria":
-        persona.update({"Nombre":"Jorge"})
+print(persona)
 
-print (listaPersonas)
+#Si queremos ver cada nombre de elemento, podemos hacer 
+for valor in persona.keys():
+    print(valor)
+
+#Si queremos ver cada valor guardado, podemos hacer:
+for valor in persona.values():
+    print(valor)
+
+#Para reemplazar valores dentro de cada diccionario, podemos hacer
+persona['Direccion']="Cabildo 321"
+
+print(persona)
+
 
 
