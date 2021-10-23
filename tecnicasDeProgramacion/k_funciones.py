@@ -2,7 +2,7 @@
 
 def divisible(a, b):
     if int(a)%int(b)==0:
-        return "Es divisible",5
+        return "Es divisible"
     else:
        return "No es divisible"
 
@@ -12,7 +12,7 @@ valor1=input()
 valor2=input()
 
 print("Los valores ingresados son "+str(valor1)+" y "+str(valor2))
-soloDiosSabra=divisible(valor1,valor2)
-print (soloDiosSabra)
+print(divisible(valor1,valor2))
+
 
 
