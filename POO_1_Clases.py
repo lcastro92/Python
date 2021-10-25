@@ -1,4 +1,4 @@
-import k_funciones
+
 class Perro:
 
     def __init__ (self, raza,nombre):
@@ -11,4 +11,3 @@ class Perro:
 diana  = Perro("yorkshire","Diana")
 
 diana.ladrar()
-prueba=divisible()
