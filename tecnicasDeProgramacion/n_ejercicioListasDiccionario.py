@@ -1,9 +1,11 @@
 listaPersonas=[]
+#Los diccionarios son mapas de valores. Se declaran con {} 
+
 
 persona={
-    "Nombre":"Lucas",
-    "Edad":"29",
-    "Direccion":"Holmberg"
+    "Nombre":"Lucas", #primer elemento
+    "Edad":"29",        #segundo elemento
+    "Direccion":"Holmberg" #tercer elemento
 }
 
 listaPersonas.append(persona)

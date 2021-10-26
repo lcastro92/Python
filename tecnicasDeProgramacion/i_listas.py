@@ -1,6 +1,5 @@
 #Las listas nos sirven para tener una colección de elementos, y poder acceder a ellos. 
 # No hace falta que estén ordenados y pueden estar duplicados
-
 colores=["Rojo","Amarillo","Azul"]
 
 #Para imprimir la lista
@@ -12,7 +11,6 @@ print(longitud)
 
 #Podemos modificar los valores almacenados, por ejemplo para reemplazar el Rojo por Naranja se haría
 colores[0]="Naranja"
-
 print(colores)
 
 #Podemos insertar valores con insert (recordar pasarle la posición)
