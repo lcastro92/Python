@@ -5,7 +5,3 @@ def esPar(num):
     else: 
         return "Impar"
 
-'''
->>>esPar(2)
-"Par"
-'''

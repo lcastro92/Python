@@ -8,7 +8,7 @@ import ejemploFuncion
 class TestPar(unittest.TestCase):
     #creamos el método que va a analizar los ejercicios
     def test_par(self):
-        self.assertEqual(ejemploFuncion.esPar(2), "e")
+        self.assertEqual(ejemploFuncion.esPar(2), "Par")
         self.assertEqual(ejemploFuncion.esPar(3),"Impar")
 
 if __name__ == "__main__":

@@ -25,5 +25,6 @@ class Perro:
     def get_color(self, color):
         return self._color
 
+    #método propio
     def ladrar(self):
         print("Guau guau!")
