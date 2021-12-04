@@ -6,3 +6,7 @@
 Esto también es un comentario
 ''' #Aca terminá el comentario
 
+
+#Este es un comentario
+
+print("Hola a todos!") #código que imprime Hola a todos!
