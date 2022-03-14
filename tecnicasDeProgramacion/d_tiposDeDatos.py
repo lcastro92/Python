@@ -13,3 +13,6 @@ nombre="Lucas" #Este es un string
 print("Mi nombre es "+nombre+" tengo "+str(años)+" años y $"+str(dinero))
 
 #También podemos transformar strings a enteros haciendo int() o a floats haciendo float()
+
+sueldo = "12000"
+sueldoNuevo= float(sueldo)
