@@ -4,5 +4,8 @@ edad=input()
 
 if int(edad)<18:
     print("Sos menor de edad")
+    
+elif int(edad)==18:
+        print("Tenés 18")
 else:
     print("Sos mayor de edad")
