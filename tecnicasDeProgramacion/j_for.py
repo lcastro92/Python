@@ -1,3 +1,4 @@
+
 #El bucle for nos sirve cuando sabemos la cantidad de veces que necesitamos repetir código.
 #Por ejemplo para recorrer una lista o un String, en el que conocemos la cantidad de veces que hay que
 #repetir el código (la longitud de la lista/string)
@@ -13,9 +14,17 @@ for color in reversed(colores):
 
 
 #También podemos usar un for para recorrer un String letra a letra
-palabra = "Hola a todos"
-for letra in palabra :   
+frase = "Hola a todos"
+for letra in frase :   
     print(letra)
 
-print(colores)
+frase = "Hola a todos"
+for letra in reversed(frase):
+    print(letra)
 
+#print(colores)
+
+
+
+for i in range(20):
+    print(i)
