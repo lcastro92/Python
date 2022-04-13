@@ -1,1 +1,2 @@
-print("Probando conexión")
+palabra= "Esto es un String"
+print(palabra)

@@ -2,6 +2,28 @@
 # No hace falta que estén ordenados y pueden estar duplicados
 colores=["Rojo","Amarillo","Azul"]
 
+#Las listas pueden almacenar elementos de diferente tipo
+
+componentes= [23.4,"Avión","Perro",123]
+cont=0
+for i in componentes:
+    print("posición: "+str(cont)+" Valor: "+str(i))
+    cont+=1
+
+ultima_posicion=len(componentes)-1
+print("Última posición: "+str(ultima_posicion))
+
+
+print("Lista original: "+str(componentes))
+componentes.append("Rompecabezas")
+print("Lista nueva: "+str(componentes))
+
+for items in componentes:
+    print(items)
+
+cantidad_valores=len(componentes)
+print("Cantidad de valores: " +str(cantidad_valores))
+
 #Para imprimir la lista
 print(colores)
 
@@ -53,5 +75,17 @@ print (colores)
 if "Morado" in colores:
     print(colores.index("Morado")) #No devuelve nada porque no existe el morado en la lista
 
+listado=[]
 
-
+contador_alumnos=0
+for alumno in range(3):
+    print("Alumno: "+str(contador_alumnos))
+    contador_datos=0
+    datos_alumno=[]
+    for i in range(4):
+        dato=input("Ingrese el dato "+str(contador_datos)+": ")
+        datos_alumno.append(dato)
+        contador_datos+=1
+    listado.append(datos_alumno)
+    contador_alumnos+=1
+print(listado)
